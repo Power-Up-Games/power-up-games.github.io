@@ -1,30 +1,6 @@
 body {
-	margin: 20px auto;
+	margin: 40px auto;
 	width: 70%;
-}
-
-.hcenter {
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-	-o-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-webkit-transform: translateX(-50%);
-}
-
-.vcenter {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-}
-
-nav {
-	margin-bottom: 20px;
 }
 
 nav ul {
