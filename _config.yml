@@ -1,2 +1,3 @@
 name: Power-Up Games
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
