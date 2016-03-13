@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Basic Site Launched
+title: Site Launched
 date: 2016-03-14
 ---
 
