@@ -4,7 +4,7 @@ body {
 }
 
 .hcenter {
-	position: fixed;
+	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
 	-o-transform: translateX(-50%);
@@ -14,7 +14,7 @@ body {
 }
 
 .vcenter {
-	position: fixed;
+	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
 	-o-transform: translateY(-50%);
