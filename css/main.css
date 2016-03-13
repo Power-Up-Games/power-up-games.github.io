@@ -4,7 +4,6 @@ body {
 }
 
 nav {
-	width: 100%;
 	left: 50%;
 	transform: translateX(-50%);
 	-o-transform: translateX(-50%);
