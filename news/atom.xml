@@ -4,10 +4,10 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>Power-Up Games News</title>
-	<link href="http://power-up-games.github.io/news/atom.xml" rel="self"></link>
-	<link href="http://power-up-games.github.io/news"></link>
+	<link href="http://power-up-games.github.io/blog/atom.xml" rel="self"></link>
+	<link href="http://power-up-games.github.io/blog"></link>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://power-up-games.github.io/news</id>
+	<id>http://power-up-games.github.io/blog</id>
 	<author>
 		<name>Power-Up Games</name>
 		<email>PowerUpGameDev@Gmail.com</email>
@@ -16,7 +16,7 @@ layout: feed
 	{% for post in site.posts %}
 	<entry>
 		<title>{{ post.title }}</title>
-		<link href="http://power-up-games.github.io{{ post.title }}"></link>
+		<link href="http://power-up-games.github.io{{ post.url }}"></link>
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
 		<id>http://power-up-games.github.io/{{ post.id }}</id>
 		<content type="html">{{ post.content | xml_escape }}</content>
