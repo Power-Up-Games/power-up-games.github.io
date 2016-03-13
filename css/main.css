@@ -23,6 +23,10 @@ body {
 	-webkit-transform: translateY(-50%);
 }
 
+nav {
+	margin-bottom: 20px;
+}
+
 nav ul {
 	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 	padding: 0px;
