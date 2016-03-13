@@ -3,7 +3,28 @@ body {
 	width: 70%;
 }
 
+.hcenter {
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+}
+
+.vcenter {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+
 nav {
+	position: fixed;
 	left: 50%;
 	transform: translateX(-50%);
 	-o-transform: translateX(-50%);
