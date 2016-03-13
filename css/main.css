@@ -30,8 +30,8 @@ h1 {
 }
 
 p {
-	font-size: 1.5em;
-	line-height: 1.4em;
+	font-size: 1em;
+	line-height: 0.9em;
 	color: #333;
 }
 
@@ -42,4 +42,8 @@ ul.posts {
 
 ul.posts li {
 	list-style: none;
+}
+
+.meta {
+	color: #444;
 }
